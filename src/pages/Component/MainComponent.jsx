@@ -1,8 +1,8 @@
 import { Card, Typography } from "@mui/material";
-import { useGetTypesQuery } from "../api/api";
+
 
 const MainComponent = () => {
-  const { data } = useGetTypesQuery();
+  
   return (
     <Card
       sx={{ display: "flex", flexDirection: "column", gap: "2rem", p: "4rem" }}
